@@ -1,0 +1,232 @@
+ 
+ /*font-family: 'Satisfy', cursive;
+ font-family: 'Great Vibes', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    max-width: 100%;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    max-width: 90%;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 4px rgba(26, 25, 25, 0.562);
+}
+.topWriteUp{
+    border-top: solid 3rem white;
+    background-color: #bb724f;
+    text-align: center;
+    color: #fff;
+    padding: 6px;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.hero::before{
+    content: "";
+    background-image: url(pexels-pixabay-45842.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .7;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 1px 1px black;
+}
+.header header h1{
+    font-size: 3rem;
+    color: #a56142;
+    text-shadow: 1px 1px black;
+}
+.header header h1 a{
+    text-decoration: none;
+    display: block;
+    color:#a56142;
+}
+nav ul{
+    display: inline-flex;
+    margin-top: 1.5rem;
+}
+nav ul a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 12px;
+    font-weight: bold;
+}
+nav ul a:visited{
+    background-color:#7c472e ;
+}
+nav ul a:hover{
+    background-color:#a56142 ;
+}
+nav ul a:active{
+    background-color:#24130c ;
+} /*08153263319   2267*/
+.banner{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 30%;
+    text-shadow: 1px 1px black;
+}
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #a56142;
+    display: inline-block;
+    padding: 11px 15px;
+    box-shadow: 0px 0px 2px 2px rgb(49, 49, 49);;
+}
+.btn a:hover{
+    background-color:#cf8664 ;
+    transform: scale(1.05);
+}
+.main1{
+    width: 80%;
+    margin: 4rem auto;
+}
+.write-mode{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: right;
+    font-family: 'Satisfy', cursive;
+    color: #cf8664;
+    position: absolute;
+    top: 43rem;
+    left: 12.55rem;
+    z-index: 5;
+}
+.flex{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.leftFlex{
+    width: 50%;
+}
+.leftFlex img{
+    box-shadow: 1px 1px 2px 2px rgb(136, 135, 135);
+}
+.rightFlex{
+    width: 50%;
+    text-align: justify;
+    
+}
+.centerTex{
+    width: 100%;
+    margin: 3rem auto;
+    height: 83%;
+    padding: 1rem;
+    background-color: #bbb7b1;
+    transform: translateX(-25%);
+    box-shadow: 1px 1px 2px 2px rgb(148, 147, 147);
+}
+.rightFlex h3{
+    margin: 1rem;
+    color: #cf8664;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black;
+}
+.btn2{
+    text-align: center;
+    margin-top: 1rem;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #a56142;
+    display: inline-block;
+    padding: 7px 15px;
+    box-shadow: 0px 0px 1px 1px rgb(49, 49, 49);
+    text-shadow: 1px 1px rgb(78, 78, 78);
+}
+.btn2 a:hover{
+    background-color:#cf8664 ;
+    transform: scale(1.01);
+}
+.showCase{
+    width: 100%;
+    text-align: center;
+    color: #a56142;
+    margin-bottom: 2rem;
+}
+.showCase p{
+     font-family: monospace;
+}
+.flex-pic{
+    width: 90%;
+    margin: 2rem auto 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32%;
+    background-color: #dac1ab; 
+    padding-bottom: 5px; 
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.692);
+}
+.inside{
+    text-align: center;
+    padding: 3px;
+}
+.inside h2{
+    color:  #a56142;
+    text-shadow: 1px 1px rgb(78, 78, 78);
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+    background-color: #a56142;
+    display: inline-block;
+    padding: 7px 15px;
+    margin-top: 1rem;
+    font-family: monospace;
+    box-shadow: 0px 0px 1px 1px rgb(49, 49, 49);
+    text-shadow: 1px 1px rgb(78, 78, 78);
+}
+.btn3 a:hover{
+    background-color:#cf8664 ;
+    transform: scale(1.01);
+}
+.main3{
+    text-align: center;
+    background-color: #cf8664;
+    color: white;
+    padding: 7rem;
+}
+footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 7rem;
+    line-height: 2rem;
+}
+footer h2{
+    color: #cf8664;
+    text-shadow: 1px 1px rgb(116, 116, 116);
+}
